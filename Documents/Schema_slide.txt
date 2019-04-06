@@ -1,0 +1,30 @@
+Schema per il TEST
+
+3 slide per immagine
+
+1. ExtractBoard -> Dall'originale alla Board
+	1. Stampa immagine Originale
+	2. "Gamma correction + padding"
+	3. Stampa bw ottenuto con Sauvola
+	4. "Abbiamo fatto erode con quadrato; ed estratto la seconda regione con area maggiore"
+	5. "Individuiamo i quattro punti di corner"
+	5. Stampa BoardMask con i punti di corner
+	6. "Abbiamo generato la matrice di proiezione con fitgeotrans"
+	7. "Correggiamo l'immagine di input usando la matrice di proiezione"
+	7. Stampa immagine corretta
+2. ExtractSquare -> immagine con righe
+	1. Stampa board
+	2. "Abbiamo fatto sauvola, aggiungiamo un padding, e facciamo una open con riga -45 gradi"
+	3. Stampa immagine risultato correzioni
+	4. Immagine di hough + plotta picchi
+	5. Estriamo le linee usando hough
+	6. Stampa immagine della board con linee sovrapposte
+3. ComputeFEN -> Classificatore vs Template Matching
+	1. Stampa FEN ottenuta
+	2. Accuratezza (rispetto alla groundtruth)
+	3. Matrice di confusione
+
+
+slide finale
+Matrice di confusione globale per classificatore
+Matrice di confusione globale per template matching

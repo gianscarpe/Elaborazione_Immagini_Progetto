@@ -1,0 +1,73 @@
+1. schema su sfondo nero
+2. schema su bianco; leggermente sfocata
+3. schema su foglio a quadretti; leggermente inclinato
+4. schema su tessuto nero con texture; leggermente inclinato e su più scala
+5. schema su foglio a righe
+6. schema su sfondo nero con luce non uniforme
+7. schema su tastiera nera
+8. schema su tovaglia con texture
+9. schema su sfondo a bande orizzontali; leggermente inclinato
+10. schema su foglio bianco
+11. schema su legno
+12. schema su nero con texture (stesso di 4); luca non uniforme nella prima metà (D)
+13. schema inclinato su legno; luce non uniforme
+14. schema su fogli con scritte; inclinato e su più scale (D)
+15. schema su foglio blu; inclinato e su più scale
+16. schema su griglia nera; molto inclinato (D)
+17. schema su sfondo blu; su molte scale; presente riflesso dello schema (D)
+18. schema in sacchetto di plastica con scritte; luce riflessa dal sacchetto (D)
+19. schema su sfondo nero; luce non uniforme
+20. schema su sfondo bianco non uniforme; più scale
+21. schema su legno; molte scale (D)
+22. schema su finestra trasparente; lontano 
+23. schema su pagina bianca con scritte
+24. schema su lengno; luce non uniforme
+25. schema su legno; leggermente su più scale
+26. schema su foglio a quadretti
+27. schema su sfondo bianco con scritte e riflessi
+28. schema in verticale in centro a una stanza
+29. schema su legno; leggermente inclinato; luce non uniforme
+30. schema su foglio a quadretti; luce non unfirome
+31. schema su scatola di biscotti su scrivania; leggermente distante
+32. schema in verticale con sfondo sfocato; affianco, oggetti dettagliati
+33. schema su tastiera nera
+34. schema su foglio a quadretti; leggermente inclinato
+35. schema su  sfondo a bande orizzontali
+36. schema su sacchetto di plastica opaco; molto inclinato
+37. schema con sfondo dettagliato; luce non uniforme
+38. schema su foglio bianco con scritte; presenti altri oggetti
+39. schema su sfondo nero con texture (stesso di 4); molto zoommato; leggermente inclinato e luce non uniforme
+40. schema molto fuori fuoco su scrivania in legno con oggetti neri; luce non uniforme (DD)
+41. schema su scrivania con molti oggetti (tastiera nera, fogli binachi, cavi bianchi); leggermente distante
+42. schema su scrivania in legno; presenti scatole con scritte e disegni
+43. schema su sfondo rosso riflettente; background con molti dettagli
+44. schema su legno e griglia nera (stessa di 16) (D)
+45. schema su tastiera; leggermente inclinato; su più scale; luce non uniforme
+46. schema su sacchetto opaco con scritte; leggermente inclianato e su più scale; presenti scritte e quadrati; luce non uniforme
+47. schema su sfondo nero con texture (stesso di 4)
+48. schema su jeans; sfondo fuori fuoco; leggermente inclinato; luce non uniforme
+
+Problemi:
+- immagini tutte di dimensioni diverse (molto grandi)
+	-> ridimensionare tutte le immagini
+
+- trasformazioni geometriche:
+- più scale diverse
+- inclinazione da - 45° a + 45°
+
+- luce:
+- riflessi: sacchetto di plastica, superifici riflettenti; 
+- non uniforme: foto illuminata solo in parte)
+
+- sfondo:
+- con quadretti (tastiera, foglio a quadretti)
+- con molti dettagli
+	- potrebbe rendere più difficile riconoscere lo schema
+
+- fuoco:
+- immagini sfocate (n°40 e n°2)
+
+Legenda:
+(D) : presenta difficoltà
+(DD): presenta molte difficoltà
+

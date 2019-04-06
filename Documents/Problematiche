@@ -1,0 +1,11 @@
+// Immagini complesse da elaborare (risultati POSITIVI)
+
+040.jpg : quadrato interrotto
+018.jpg : quadrato interrotto (da luce)
+050.jpg : immagine aggiunta per testare i limiti dell'algoritmo di riconoscimento
+043.jpg : immagine estratta con difficoltà
+036.jpg : angolazione troppo estesa
+
+Problematiche:
+- angololazioni e problemi di prospettiva della chessboard
+- regioni nere con bordo bianco sufficientemente esteso (simile alla scacchiera) presenti nell'immagine

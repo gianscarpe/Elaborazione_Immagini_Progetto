@@ -1,0 +1,190 @@
+* 60533f6 (HEAD -> developing, origin/developing) .
+*   2b95619 Merge branch 'developing' of https://gitlab.com/gianscarpe/EI_Progetto2018 into developing
+|\  
+| * 43796a8 Fixed merge errors Recomputed some classifier to gain 100% accuracy
+| *   e9b7f45 Merge branch 'developing' of https://gitlab.com/gianscarpe/EI_Progetto2018 into developing
+| |\  
+| * | ea481e4 Added more classifier
+* | | 38f3dd8 .
+* | | 04ff1c9 .
+* | | a408d98 .
+* | | 71b5142 (master) .
+* | | f170e45 .
+* | | dce63a3 .
+| |/  
+|/|   
+* | 8f4f1e8 .
+|/  
+* 6b550d7 Computed more features and classifier, all with an accuracy greater than 90%
+* c0fbe94 Re-order!
+*   27abcb2 Merge branch 'developing' of https://gitlab.com/gianscarpe/EI_Progetto2018 into developing
+|\  
+| * f182b93 .
+* | 0a93df8 Order!
+|/  
+* 0d9e9de "Nothing changed"
+*   bc92e57 Merge branch 'developing' of https://gitlab.com/gianscarpe/EI_Progetto2018 into developing
+|\  
+| * 0430825 .
+| * 435e1d0 .
+| * 17e6e03 .
+| *   10fbaef .
+| |\  
+| * | bd0b999 .
+* | | c05bd34 "Resolved conflict"
+* | | edde582 confusionMatrix now returns a table. Main contains code to compute the confusion matrix
+| |/  
+|/|   
+* | a6651c1 Added ncc and nssd functions
+|/  
+* 3ace586 Modified Main.m to use template matching algorithm
+* d999cb4 .
+| * 1e5aff3 (origin/new_training_set) Nothing changed, only the function name
+| | *   9d2ad2d (refs/stash) WIP on developing: d9320d3 Merge branch 'new_training_set' into developing
+| | |\  
+| |/ /  
+|/| |   
+| | * eb65fde index on developing: d9320d3 Merge branch 'new_training_set' into developing
+| |/  
+|/|   
+* |   d9320d3 Merge branch 'new_training_set' into developing
+|\ \  
+| |/  
+| * cbc27ae (new_training_set) Added function confusionMatrix
+| * 3959fef Nothing change
+| * cc251e8 Added classifier for recognize empty squares
+| * 8612680 Added function to calculate zncc correlation coefficient
+| *   4656eca Merge branch 'new_training_set' of https://gitlab.com/gianscarpe/EI_Progetto2018 into new_training_set
+| |\  
+| * | 041917b Added 5 more templates
+* | | 3ef925d .
+* | | 218d266 .
+* | | 967341b .
+* | |   041eb48 .
+|\ \ \  
+| * | | 4bce50e (classify) .
+* | | | 4c76219 .
+* | | |   df1dd3e .
+|\ \ \ \  
+| |/ / /  
+|/| | /   
+| | |/    
+| |/|     
+| * | d060c55 .
+| * | 633082c .
+| * | 2058d41 .
+| |/  
+| * ea8e98e Added template matching function Added compute fen string function
+| *   e8f6c56 Modified extractSquares
+| |\  
+| * | f07fae1 Modified extractSquares to work with all training images
+* | | 8dd1fa1 (origin/classify) .
+* | | 71cd055 .
+* | | 6e4225b .
+* | | dc1928e .
+* | | 6e801b1 .
+* | | e28ba5e .
+* | | 2f75c88 done
+* | | 71c46e3 .
+* | |   9c2e401 Merge branch 'new_training_set' into developing
+|\ \ \  
+| | |/  
+| |/|   
+| * | a65c34a .
+| |/  
+| * 0db573e .
+| * 00c7e59 .
+| * a4556c5 .
+| *   c70bfa8 .
+| |\  
+| | * 511c505 Modified correctPerspective to recognize all middle point of the chessboard
+| * | 5857c5d .
+| |/  
+* | b810d18 .
+|/  
+* 8314d21 Renamed gridLines to extractSquares Renamed extract_board_script to extractBoard Modified extractSquares to work with all images
+* 901d974 .
+*   7622d62 .
+|\  
+| * 45c9723 Added new images
+* |   b3464a7 .
+|\ \  
+| |/  
+| * cc66e63 Modified grid lines: Sauvola neighbour is based on grid nsize
+* | 58ec84b .
+* | fdb8d05 .
+* | cae4522 (new_images) .
+* | 51afe5a .
+* | f4a637d .
+|/  
+*   21f47e8 .
+|\  
+| * b983fa5 (origin/moments_descriptor) Hu moments
+* | c8353ce .
+* | 8544dbd .
+* | 32ae477 .
+* |   ca5d6fb .
+|\ \  
+| * | ca05be7 (classification) .
+| * | 204c3be .
+* | | 0411df3 .
+* | |   9eccf93 Merge remote-tracking branch 'origin/moments_descriptor' into developing
+|\ \ \  
+| |/ /  
+|/| /   
+| |/    
+| * 8ef38dc Modified hu moments (Gonzales docet)
+* |   8e21acd .
+|\ \  
+| |/  
+| * a99cf46 Final working gridLines
+* | c333c9d .+
+|/  
+* e96800d (origin/co_descriptors, co_descriptors) .
+* a7469a3 labels, images, ..
+*   747e411 .
+|\  
+| * c10c165 dataset chess
+| * 11e171b .
+| * 7564790 .
+* | 420006f dataset chess
+* | 9607227 .
+* | 0a58970 .
+* |   a2411ae .
+|\ \  
+| |/  
+|/|   
+| * daec39a (origin/compute_hu_moments) Hola
+* | aff200e 
+|/  
+*   d484436 merged
+|\  
+| * 377aff7 (origin/extract_board_lines, origin/049-recognition) -Added function gridLines
+| * d5acd77 -gridLines now returns all the squares of the grid, starting from the upper left
+| * debd8ea -Added Grids folder containing some chess grids -Modified gridLines to recognize the grid
+| * 237093c Riconosciuta esattamente quella stra maledetta griglia!
+| * aeb5c92 (049-recognition) Risolto piccolo baco da seta
+| * fd87d8b Riconosciuta correttamente la griglia degli scacchi
+* | 5bb546a (origin/001_recognition, 001_recognition) .
+* | 631e20c .
+* | b5007d9 .
+* | aae66c5 .
+* | b29bd37 chess extracted
+* | 8bfc5eb .
+* | 03bdcd9 .
+* | 0f2259f .
+* | 9374428 .
+* | 1507f52 
+* | 2e0f3b7 Correct perspective2
+* | 4d10f7c 
+* | 665098f .
+* | 39c250d .-
+* | 13dcbec Lavorando su hough e linee
+* | 0037552 Task 1 : estrarre la chessboard
+|/  
+* 02105cf (origin/master) Aggiunta cartella Groundtruth Modificato file README.md
+* 3fa6c70 Aggiunta cartella Groundtruth Modificato file README.md
+* 6cdea81 EsempiMatlab; Studio funzione regionprops
+* 411ffcf Aggiornato Readme; Analizzate immagini e aggiunto immagine di dataset (49)
+* 3ca9b5f README
+* 3fda15a Guida al Progetto
