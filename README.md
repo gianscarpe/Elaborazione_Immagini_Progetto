@@ -7,12 +7,6 @@ Il progetto consiste nel generare la stringa FEN di alcuni schemi di scacchi del
 - Matlab toolbox Compute Vision : essenziale per l'esecuzione 
 
 // SETUP ED ESECUZIONE
-- Copiare la chiave di deployment fornita (id_rsa) in ~/.ssh/
-- Da terminale eseguire:
-	- eval "$(ssh-agent -s)" : Avvia agente SSH
-	- ssh-add ~/.ssh/id_rsa : Abilita la chiave di deployment
-	- git clone git@gitlab.com:gianscarpe/EI_Progetto2018.git : Clonare il repositery in locale, con il relativo Dataset
-
 - Recarsi nella cartella principale (da qui in poi root) del repositery. I file contenuti e l'albero delle directory è illustrato in seguito
 - Aggiungere la cartelle root e tutte le sue sottocartelle al path (tramite AddPath -> Selected Folder and Subfolders)
 - Recarsi nello script *Main.m*
